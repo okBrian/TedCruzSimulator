@@ -1,8 +1,3 @@
-if __file__ == "__main__":
-    setup()
-    run()
-    shutdown()
-
 def setup():
     pass
 
@@ -12,3 +7,7 @@ def run():
 def shutdown():
     pass
 
+if __file__ == "__main__":
+    setup()
+    run()
+    shutdown()
