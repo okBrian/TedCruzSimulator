@@ -1,5 +1,7 @@
+import pygame
+
 def setup():
-    pass
+    pygame.init()
 
 def run():
     pass
