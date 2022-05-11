@@ -3,19 +3,19 @@ import pygame
 import GameObject as GO
 #import MoveableObject
 #import Enemy
-#import Player
+import Player as p
 
 true = True
 
 def setup():
-    pygame.init()
+    pygame.init() 
     pygame.font.init()
 
 def run():
     screen = pygame.display.set_mode((640, 480))
     playerImg = pygame.image.load("res/ProtagonistFace.PNG").convert()
     backgroundImg = pygame.image.load('res/Background.PNG').convert()
-    player = GO.GameObject(playerImg, (320, 240))
+    player = p.Player(playerImg, (320, 240))
     background = GO.GameObject(backgroundImg, (320, 240))
 
     screen.blit(background.image, (0, 0))
