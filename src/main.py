@@ -28,7 +28,6 @@ def run():
         screen.blit(background.image, background.pos, background.pos)
         screen.blit(player.image, player.pos)
         pygame.display.update()
-        pygame.time.delay(100)
 
 if __name__ == "__main__":
     setup()
