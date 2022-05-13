@@ -1,3 +1,4 @@
 import GameObject
 class HitBoxObject(GameObject.GameObject):
-    pass
+    def __init__(self, image, pos): 
+        GameObject.GameObject.__init__(self, image, pos)
